@@ -1,0 +1,22 @@
+.my_alert {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.my_alert_body {
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.errorAlert {
+  border: 1px solid #e53e3e;
+  background-color: #feb2b2;
+  color: #c53030;
+}
+
+.successAlert {
+  border: 1px solid #38a169;
+  background-color: #c6f6d5;
+  color: #2f855a;
+}
