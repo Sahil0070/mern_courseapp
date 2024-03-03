@@ -1,0 +1,91 @@
+/* CourseDetails.module.css */
+
+.wrapper {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow:hidden;
+}
+
+.courseDetail {
+  display: flex;
+  width: 80%;
+  min-height:55vh;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* border: 1px solid black; */
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.detailsContainer {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.additionalDetails {
+  margin-bottom: 20px;
+}
+
+.instructor,
+.duration {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.purchaseButton {
+  background-color: #ff4081;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for button */
+}
+
+.purchaseButton:hover {
+  background-color: #cf2a61;
+}
+.desc_span{
+  color:white;
+  font-weight: bold;
+  font-size: 1em;
+  margin:3px;
+}
